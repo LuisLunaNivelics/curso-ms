@@ -1,0 +1,20 @@
+server:
+  port: 8081
+  error:
+    include-message: always
+    include-binding-errors: always
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/LuisLunaNivelics/curso-ms.git
+          searchPaths: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+          default-label: main
+          skip-ssl-validation: true
+  security:
+    user:
+      name: root
+      password: s3cr3t
