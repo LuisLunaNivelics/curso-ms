@@ -50,7 +50,9 @@ Feign:
   circuitbreaker:
     enabled: true
 management:
+  security:
+    enabled: false
   endpoints:
     web:
       exposure:
-        include: "*"
+        include: hystrix.stream, "*"
