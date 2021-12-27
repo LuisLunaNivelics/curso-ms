@@ -46,7 +46,7 @@ Feign:
   hystrix:
     enabled: true
     dashboard:
-      proxy-stream-allow-list: "*"
+      proxy-stream-allow-list: localhost
   ribbon:
     enabled: true
   circuitbreaker:
