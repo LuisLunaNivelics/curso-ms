@@ -9,3 +9,15 @@ O
 config-data/service-product.yml,3\8\38337a48c98d4159bd672e4df862f04a8b8d21d4
 Q
 !config-data/costumer-.service.yml,f\7\f7c5de90ae90e55832752092dca6e03fae1992f7
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+b
+2config-services/src/main/resources/application.yml,0\9\09a92567af821837241ac2d64d02b9b1c5538687
+†
+Vconfig-services/src/main/java/com/nivelics/store/config/ConfigServicesApplication.java,9\e\9ea2c73df7174eb614f733a33061f6d87f31e56e
+c
+3customer-service/src/main/resources/application.yml,c\8\c85191373f70c88d5a9483fbc69d2bde2610ceee
+P
+ config-data/customer-service.yml,7\9\7987693d1be2f38cf082a8ab3c5bf0c4774f9663
+‘
+acustomer-service/src/main/java/com/nivelics/store/customerservice/CustomerServiceApplication.java,3\f\3f65467a49349e594c503b99b8343d287da230e9
