@@ -45,6 +45,8 @@ eureka:
 Feign:
   hystrix:
     enabled: true
+    dashboard:
+      proxy-stream-allow-list: "*"
   ribbon:
     enabled: true
   circuitbreaker:
